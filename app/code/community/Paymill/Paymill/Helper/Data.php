@@ -68,7 +68,7 @@ class Paymill_Paymill_Helper_Data extends Mage_Core_Helper_Abstract
      */
     public function getSourceString()
     {
-        return $this->getVersion() . "_Magento_" . Mage::getVersion();
+        return "Imb_paymill_magento_plugin";
     }
 
     /**
